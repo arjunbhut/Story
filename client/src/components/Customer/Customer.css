@@ -1,0 +1,60 @@
+.main_container {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.main_open {
+    margin-top: 200px;
+}
+
+.details {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: solid red; */
+   
+}
+
+.form_search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.each {
+    /* border: solid blue; */
+    width: 300px;
+    height: 300px;
+    font-size: 2vh;
+    margin: 30px;
+    margin-left: 100px;
+    word-break: break-all;
+    background-color: rgb(255,250,250,0.7);
+}
+
+@media only screen and (max-width: 850px) {
+    
+    .each{
+        width: 300px;
+        height: 300px;
+        font-size: 2vh;
+        margin-left: 35px;
+       
+    }
+    .form_search {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
+@media only screen and (max-width: 650px) {
+    
+    
+
+}
