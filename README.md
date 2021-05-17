@@ -7,7 +7,18 @@ This project is built with the help of the above mentioned Technologies.
 For searching a Particular movie it is taken care on frontend, rather than fetching data each time to search from tables.  
 On Frontend Redux is responsible to maintain all the state changes and data handling.  
 
-It has various functionalities(CRUD operations) and API for different operations.
+It has various functionalities(CRUD operations) and API for different operations.  
+
+Search Option in Frontend Accepts the following strings in the search by for their respective searches :  
+
+Rating.   
+Tag.   
+Title.   
+Genre.   
+ImdbId.   
+
+Please enter the following strings in the exact way for searching a particular parameter wise.  
+
 
 Routes:-
 
